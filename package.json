@@ -1,15 +1,15 @@
 {
-  "name": "construct3-addon",
-  "type": "module",
-  "description": "Addon for Construct 3",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "npx alfred build",
-    "dev": "npx alfred build --dev",
-    "doc": "npx alfred doc"
-  },
-  "license": "ISC",
-  "dependencies": {
-    "c3-framework": "github:MasterPose/c3-framework-core"
-  }
+    "name": "construct3-addon",
+    "type": "module",
+    "description": "Addon for Construct 3",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "npx c3fo build",
+        "dev": "npx c3fo build --dev",
+        "doc": "npx c3fo doc"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "c3-framework": "github:C3Framework/core"
+    }
 }
