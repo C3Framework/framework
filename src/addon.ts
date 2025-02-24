@@ -2,7 +2,6 @@ import { BehaviorConfig, BuiltAddonConfig, PluginConfig } from "c3-framework";
 
 const Config: BehaviorConfig = {
   addonType: "behavior",
-  // addonTyoe: "plugin"
   // type: "object",
   id: "ExampleAddon",
   name: "Example Addon",
@@ -21,7 +20,7 @@ const Config: BehaviorConfig = {
     Set: {
       CanBeBundled: true,
       IsDeprecated: false,
-      IsOnlyOneAllowed: false,
+      // IsOnlyOneAllowed: false,
       // IsResizable: true,
       // IsRotatable: true,
       // Is3D: false,
