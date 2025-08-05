@@ -4,12 +4,12 @@
     "description": "Addon for Construct 3",
     "version": "1.0.0",
     "scripts": {
-        "build": "npx c3fo build",
-        "dev": "npx c3fo build --dev",
-        "doc": "npx c3fo doc"
+        "build": "c3fo build",
+        "dev": "c3fo build --dev",
+        "doc": "c3fo doc"
     },
     "license": "ISC",
     "dependencies": {
-        "c3-framework": "github:C3Framework/core"
+        "@c3framework/core": "^1.0.1"
     }
 }

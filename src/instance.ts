@@ -1,8 +1,8 @@
-import { AceClass, Behavior, Condition, Param, Plugin } from "c3-framework";
+import { AceClass, Behavior, Condition, Param, Plugin } from "@c3framework/core";
 import Config from "./addon";
 
 @AceClass()
-// class Instance extends Plugin.Instance(Config, globalThis.ISDKInstanceBase) {
+// @ts-ignore
 class Instance extends Behavior.Instance<IWorldInstance>(Config) {
   constructor() {
     super();

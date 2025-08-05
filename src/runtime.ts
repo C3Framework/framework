@@ -1,4 +1,4 @@
-import { initRuntime } from "c3-framework";
+import { initRuntime } from "@c3framework/core";
 import Config from "./addon";
 import Instance from "./instance";
 

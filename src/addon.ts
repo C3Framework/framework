@@ -1,5 +1,3 @@
-import { BehaviorConfig, BuiltAddonConfig, PluginConfig } from "c3-framework";
-
 const Config: BehaviorConfig = {
   addonType: "behavior",
   // type: "object",
