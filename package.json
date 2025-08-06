@@ -10,6 +10,6 @@
     },
     "license": "ISC",
     "dependencies": {
-        "@c3framework/core": "^1.0.1"
+        "@c3framework/core": "^1.0.2"
     }
 }
